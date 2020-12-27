@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <title>Random Quote Machine</title>
+</head>
+<body id="body">
+    <div class="wrapper">
+        <div id="quote-box">
+            <div class="quote-text">
+                <i class="fa fa-quote-left"></i>
+                <span id="text">Definiteness of purpose is the starting point of all achievement.</span>
+            </div>
+           
+            <div class="quote-author">
+                <span id="author">- W. Clement Stone</span>
+            </div>
+
+            <div class="buttons">
+                <div class="socila-media">
+                    <a id="tweet-quote"  href="twitter.com/intent/tweet" target="_blank"> <i id="tweet" class="fa fa-twitter"></i></a>
+                    <a href="https://www.tumblr.com/" target="_blank" > <i id="tumblr-quote" class="fa fa-tumblr"></i> </a>
+                </div>
+                <button id="new-quote" onclick="change()"  >New quote</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
